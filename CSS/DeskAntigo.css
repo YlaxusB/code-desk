@@ -1,0 +1,154 @@
+div#A,
+div#B {
+    display: inline-flex;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+.A,
+.B {
+    width: 75px;
+    height: 75px;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#desktop {
+    height: 100%;
+    z-index: 30;
+}
+
+#criarArquivos,
+#criarArquivosFolder {
+    display: none;
+    width: 200px;
+    background-color: #1d1d1d;
+    border: 1px solid white;
+    box-shadow: .5px .5px .5px .5px gray;
+    color: white;
+    font-family: sans-serif;
+}
+
+.aFromCreate {
+    display: flex;
+    width: 200px;
+    cursor: default;
+}
+
+.aFromCreate:hover {
+    background-color: #747474;
+}
+
+#toCreate,
+#toCreateFolder {
+    display: none;
+    width: 200px;
+    background-color: #1d1d1d;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px gray;
+    color: white;
+    font-family: sans-serif;
+}
+
+#afterCreate {
+    display: none;
+    width: 200px;
+    background-color: #1d1d1d;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px gray;
+    color: white;
+    font-family: sans-serif;
+}
+
+.Folder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 3000;
+}
+
+.Letras {
+    height: 75px;
+    display: flex;
+}
+
+.Numeros {
+    width: 75px;
+    height: 75px;
+}
+
+.folderCreate {
+    width: 50px;
+    left: 0;
+    top: 0;
+    display: flex;
+    margin: auto;
+    height: 50px;
+}
+
+h5 {
+    left: 0;
+    top: 0;
+    margin: auto;
+    color: white;
+    font-family: sans-serif;
+}
+
+.closeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+
+.maximaze {
+    position: absolute;
+    top: 0;
+    right: 35px;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+
+.contentDiv {
+    width: 500px;
+    height: 30px;
+    display: inline-flex;
+}
+
+.contentDiv:hover {
+    background-color: rgba(76, 235, 235, 0.521);
+}
+
+.createInput {
+    width: 500px;
+    left: 30px;
+    top: 0;
+}
+
+.folderCreateFromFolder {
+    width: 30px;
+    height: 30px;
+}
+
+.h5Folder {
+    color: white;
+    font-family: sans-serif;
+    top: -15px;
+    position: relative;
+}

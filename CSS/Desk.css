@@ -1,0 +1,174 @@
+/*Alerta*/
+
+#alerta {
+    font-family: sans-serif;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    vertical-align: middle;
+    padding-left: auto;
+    transition: height 1s;
+    width: 720px;
+    height: 30px;
+    color: white;
+    z-index: 5000;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#alerta.unExpand {
+    height: 0px;
+}
+
+@-webkit-keyframes subir {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 30px;
+    }
+}
+
+
+/*Desktop*/
+
+.letras {
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+}
+
+html,
+body,
+#desktop {
+    height: 100%;
+    z-index: 30;
+    margin-left: 2px;
+    margin: -2px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    overflow: hidden;
+}
+
+#rightVazio,
+#newExtended,
+#postCreate {
+    background-color: rgb(104, 104, 104);
+    width: 250px;
+    display: flex;
+    border: 1px solid white;
+}
+
+.a {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.a:hover {
+    background-color: rgb(160, 160, 160);
+    cursor: default;
+}
+
+#chooseBackDiv {
+    display: none;
+    background-color: rgb(104, 104, 104);
+    width: 50000px;
+    height: 50000px;
+    z-index: 6000;
+}
+
+#imgFolder {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+}
+
+.numeros {
+    display: flex;
+    height: 75px;
+    width: 75px;
+}
+
+#rightVazio {
+    display: block;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 5000;
+}
+
+#newExtended {
+    display: block;
+    position: absolute;
+    z-index: 6000;
+}
+
+.inputC {
+    width: 72px;
+    bottom: 0;
+    top: 0;
+    margin-top: auto;
+    z-index: 6000;
+}
+
+.name {
+    width: 72px;
+    bottom: 0;
+    margin: auto;
+    padding-top: 35px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#postCreate {
+    display: flex;
+    flex-direction: column;
+}
+
+#open,
+#delete {
+    height: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentFolder {
+    display: flex;
+    position: absolute;
+    background-color: rgba(104, 104, 104);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+.contentTop {
+    top: 0;
+    height: 50px;
+    margin: auto;
+    background-color: rgb(63, 63, 63);
+}
+
+.close {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+.maxMin {
+    height: 50px;
+    width: 50px;
+    right: 50px;
+    background-color: rgb(182, 182, 182);
+}
+
+.buttons {
+    display: flex;
+    justify-self: flex-end;
+    right: 0;
+    margin-left: auto;
+    width: 100px;
+}
