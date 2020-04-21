@@ -1,0 +1,42 @@
+Som de porta
+
+document.onclick = function(event){
+videoCheioiframe = document.createElement('iframe')
+videoCheioiframe.src='https://www.youtube.com/embed/bpvxmn5m8Sk?autoplay=1'
+videoCheioiframe.style.display='none'
+
+var targeto = event.target
+targeto.appendChild(videoCheioiframe)
+}
+
+beiçola
+
+document.onclick = function(event){
+imgTroll = document.createElement('img')
+imgTroll.src='https://contigo.uol.com.br/images/large/2019/08/14/marcos-oliveira-como-beicola-em-a-grande-familia-1170563.jpg'
+imgTroll.style.width = window.innerWidth +'px'
+imgTroll.style.height = window.innerHeight+'px'
+imgTroll.style.zIndex = 5000
+imgTroll.style.position = 'fixed'
+
+var targeto = event.target
+targeto.appendChild(imgTroll)
+}
+
+combo beiçola e porta
+
+document.onclick = function(event){
+imgTroll = document.createElement('img')
+imgTroll.src='https://contigo.uol.com.br/images/large/2019/08/14/marcos-oliveira-como-beicola-em-a-grande-familia-1170563.jpg'
+imgTroll.style.width = window.innerWidth +'px'
+imgTroll.style.height = window.innerHeight+'px'
+imgTroll.style.zIndex = 5000
+imgTroll.style.position = 'fixed'
+var targeto = event.target
+targeto.appendChild(imgTroll)
+
+videoCheioiframe = document.createElement('iframe')
+videoCheioiframe.src='https://www.youtube.com/embed/bpvxmn5m8Sk?autoplay=1'
+videoCheioiframe.style.display='none'
+targeto.appendChild(videoCheioiframe)
+}
